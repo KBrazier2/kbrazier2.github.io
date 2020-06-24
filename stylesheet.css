@@ -1,0 +1,49 @@
+body {
+    background-image: url("https://wallpapercave.com/wp/v7ylZxz.jpg");
+    background-color: #cccccc;
+    text-align: center;
+    color: whitesmoke;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+    body, html {
+        height: 100%;
+    }    
+    /* The hero image */
+    .hero-image {
+      /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://i.redd.it/7ji7k5pen5d11.png");
+    
+      /* Set a specific height */
+      height: 40%;
+
+      /* Position and center the image to scale nicely on all screens */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+    
+      
+  }
+
+ul {
+    list-style: none;
+}  
+/* unvisited link */
+a:link {
+    color: rgb(0, 255, 255);
+  }
+  
+  /* visited link */
+  a:visited {
+    color: rgb(219, 40, 195);
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: rgb(0, 255, 255);
+  }
+  
+  /* selected link */
+  a:active {
+    color: rgb(0, 255, 255);
+  }
